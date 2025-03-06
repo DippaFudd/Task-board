@@ -1,0 +1,74 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  color: #000; /* Ensure text color is black inside task cards */
+}
+
+.task-card:hover {
+  cursor: grab;
+  transform: scale(1.05);
+}
+
+.past-due {
+  background-color: #dc3545 !important; /* Red for past due */
+  color: #ffffff !important; /* White text for contrast */
+}
+
+.due-today {
+  background-color: #ffc107 !important; /* Yellow for due today */
+  color: #000000 !important; /* Black text for contrast */
+}
+
+.due-future, .done {
+  background-color: #ffffff !important; /* White for due in the future and done */
+  color: #000000 !important; /* Black text for contrast */
+}
+
+.lane {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #000; /* Ensure text color is black inside lanes */
+}
+
+.lane .card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  color: #000; /* Ensure text color is black inside card headers */
+}
+
+.lane .card-body {
+  min-height: 200px;
+  color: #000; /* Ensure text color is black inside card bodies */
+}
+
+.task-card small {
+  color: #000 !important; /* Ensure text color is black for dates */
+}
+
+.delete-task {
+  border: 1px solid #000; /* Add a border around the delete button */
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.delete-task:hover {
+  background-color: #c82333;
+}
