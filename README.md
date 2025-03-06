@@ -31,7 +31,12 @@ Task board is a Kanban-style task management tool that allows project team membe
   - **Then** the saved tasks persist
 
 ## Screenshots
+![image alt](https://github.com/DippaFudd/Task-board/blob/8a12733d106a2286815a225be6b7b4eb2f6b5398/2025-03-06.png)
+![image alt](https://github.com/DippaFudd/Task-board/blob/8a12733d106a2286815a225be6b7b4eb2f6b5398/2025-03-06%20(1).png)
+![image alt](https://github.com/DippaFudd/Task-board/blob/8a12733d106a2286815a225be6b7b4eb2f6b5398/2025-03-06%20(3).png)
+![image alt](https://github.com/DippaFudd/Task-board/blob/8a12733d106a2286815a225be6b7b4eb2f6b5398/2025-03-06%20(4).png)
 
 ## Application
+[Website](https://dippafudd.github.io/Task-board/)
 
 
